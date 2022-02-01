@@ -1,0 +1,16 @@
+Welcome back Jah!
+
+This ReadMe is only an overview.
+    Specific ReadMe's are avaliable within each Pkg.
+    These go into much more detail about their operations.
+    Alternatively, each script has been written with easy to
+        understand commenting.
+
+This repo is my personal hub for bash scripts.
+
+As I am currently using Arch & Fedora, that is the scope of the scripts.
+    Attempting to use scripts in the other/a different distro will very likely
+        not work due to the way they function, particularly the package manager.
+
+
+    

@@ -1,25 +1,24 @@
 This Package will install some essential packages for Fedora
-These Packages include:
-    Nvidia Drivers | Nvidia.sh 
-    Spotify w/ EasyEffects | Spotify.sh
-    Steam | Steam.sh 
-    Gnome Tweaks & Extensions | Twk-Ext.sh 
+    These Packages include:
+        Nvidia Drivers | Nvidia.sh 
+        Spotify w/ EasyEffects | Spotify.sh
+        Steam | Steam.sh 
+        Gnome Tweaks & Extensions | Twk-Ext.sh 
 
 The file Pkg-1.sh must be run from within the Pkg-1 directory
     This is because individual scripts are run from ./example.sh 
     ./ being the current directory, saves hassle such as writing
     the exact script location, also increases portability.
-    For example:
-    cd ~/Bash/Fedora/Pkg-1
-
+        For example:
+        cd ~/Bash/Fedora/Pkg-1
 
 All .sh files must be set as executable.
     The script/s will not run otherwise.
     This can be done from most file explorers.
-    Right click file -> Preferences -> Permissions
+        Right click file -> Preferences -> Permissions
 
 If there are errors try:
     Reboot the system
     Update the system: sudo dnf makecache & sudo dnf update
-    If the system needs to update remember to Reboot
+        If the system needs to update remember to Reboot
     

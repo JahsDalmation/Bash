@@ -1,0 +1,10 @@
+This Package will install some additional packages for Arch
+These Packages include:
+
+
+The file Pkg-2.sh must be run from within the Pkg-2 directory
+    This is because individual scripts are run from ./example.sh 
+    ./ being the current directory, saves hassle such as writing
+    the exact script location, also increases portability.
+    For example:
+    cd ~/Bash/Arch/Pkg-2

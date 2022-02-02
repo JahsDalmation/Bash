@@ -5,16 +5,8 @@
 # Make sure all scripts are executable ( Can be done in most file explorers in properties -> permissions )
 # This script will not run otherwise
 
-# Run Nvidia.sh
-./Nvidia.sh	
+# Run VSCode.sh
+./VSCode.sh
 
-# Run Spotify.sh
-./Spotify.sh
-
-# Run Steam.sh
-./Steam.sh
-
-# Run Twk-Ext.sh
-./Twk-Ext.sh
-
-
+# Run Lutris.sh
+./Lutris.sh 

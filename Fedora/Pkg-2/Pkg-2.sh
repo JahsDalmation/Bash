@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# A bash script to set up Fedora ( Spotify, Steam, Tweaks & Extenstions w/ Nvidia drivers )
+# A bash script to set up additional Fedora packages ( Visual Studio Code, Lutris )
 # 
 # Make sure all scripts are executable ( Can be done in most file explorers in properties -> permissions )
 # This script will not run otherwise

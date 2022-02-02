@@ -1,0 +1,20 @@
+This Package will install some additional packages for Fedora
+    These Packages include: 
+
+The file Pkg-2.sh must be run from within the Pkg-2 directory
+    This is because individual scripts are run from ./example.sh 
+    ./ being the current directory, saves hassle such as writing
+    the exact script location, also increases portability.
+        For example:
+        cd ~/Bash/Fedora/Pkg-2
+        ~/Bash/Fedora/Pkg-2/Pkg-2.sh
+
+All .sh files must be set as executable.
+    The script/s will not run otherwise.
+    This can be done from most file explorers.
+        Right click file -> Preferences -> Permissions
+
+If there are errors try:
+    Reboot the system
+    Update the system: sudo dnf makecache & sudo dnf update
+        If the system needs to update remember to Reboot

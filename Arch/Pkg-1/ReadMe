@@ -1,0 +1,30 @@
+This Package will install some additional packages for Arch
+    These Packages include:
+        Nvidia Drivers | Nvidia.sh
+        Xorg & Xinit | Xorg.sh
+        Desktop Essentials | DEssentials.sh 
+        i3-gaps WM | i3.sh
+        
+
+The file Pkg-1.sh must be run from within the Pkg-1 directory
+    This is because individual scripts are run from ./example.sh 
+    ./ being the current directory, saves hassle such as writing
+    the exact script location, also increases portability.
+        For example:
+        cd ~/Bash/Arch/Pkg-1
+        ~/Bash/Arch/Pkg-1/Pkg-1.sh
+
+All .sh files must be set as executable.
+    The script/s will not run otherwise.
+    This can be done from most file explorers.
+        Right click file -> Preferences -> Permissions
+    In Arch, where you may not have a file manager:
+        sudo chmod +x /full/path/to/example.sh
+            E.g. sudo chmod +x ~/Bash/Arch/Pkg-1/Pkg-1.sh
+        This will allow the script to be executable
+
+If there are errors try:
+    Reboot the system
+    Or 
+    Update the system: sudo pacman -Syu
+        If the system needs to update remember to Reboot

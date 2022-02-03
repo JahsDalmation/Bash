@@ -1,6 +1,8 @@
 This Package will install some additional packages for Arch
 These Packages include:
-
+    Ibhagwans Picom | Picom.sh
+    Spotify | Spotify.sh
+    Optional packages | Optional.sh 
 
 The file Pkg-2.sh must be run from within the Pkg-2 directory
     This is because individual scripts are run from ./example.sh 

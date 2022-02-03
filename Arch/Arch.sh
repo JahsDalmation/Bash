@@ -4,9 +4,9 @@
 
 cd ./Pkg-1
 ./Pkg-1.sh
-cd..
+cd ..
 
 # Run Pkg-2.sh
 cd ./Pkg-2
 ./Pkg-2.sh
-cd..
+cd ..

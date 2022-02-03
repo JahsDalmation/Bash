@@ -35,4 +35,4 @@ cd ytfzf
 
 # Install the package
 makepkg -si
-cd..
+cd ..
